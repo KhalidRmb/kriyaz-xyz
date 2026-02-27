@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: 'kriyaz',
   author: 'Khalid Riyaz',
-  headerTitle: 'kriyaz',
+  headerTitle: 'khalid',
   description: 'Writing on AI, technology, and ideas worth thinking about.',
   language: 'en-us',
   theme: 'system', // system, dark or light

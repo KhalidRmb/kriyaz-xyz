@@ -2,7 +2,7 @@ import 'css/tailwind.css'
 import 'pliny/search/algolia.css'
 import 'remark-github-blockquote-alert/alert.css'
 
-import { Inter, IBM_Plex_Mono } from 'next/font/google'
+import { Geist, JetBrains_Mono } from 'next/font/google'
 import { Analytics, AnalyticsConfig } from 'pliny/analytics'
 import { SearchProvider, SearchConfig } from 'pliny/search'
 import Header from '@/components/Header'
@@ -12,17 +12,18 @@ import siteMetadata from '@/data/siteMetadata'
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
 
-const inter = Inter({
+const geist = Geist({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-inter',
+  variable: '--font-geist',
 })
 
-const ibmPlexMono = IBM_Plex_Mono({
+
+const jetbrainsMono = JetBrains_Mono({
   weight: ['400', '500', '600'],
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-ibm-plex-mono',
+  variable: '--font-jetbrains-mono',
 })
 
 export const metadata: Metadata = {
@@ -71,7 +72,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang={siteMetadata.language}
-      className={`${inter.variable} ${ibmPlexMono.variable} scroll-smooth`}
+      className={`${geist.variable} ${jetbrainsMono.variable} scroll-smooth`}
       suppressHydrationWarning
     >
       <link
