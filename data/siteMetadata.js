@@ -10,9 +10,9 @@ const siteMetadata = {
   siteRepo: 'https://github.com/kriyaz/kriyaz-xyz',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
-  email: 'hi@kriyaz.xyz',
-  github: 'https://github.com/kriyaz',
-  x: 'https://twitter.com/kriyaz',
+  email: 'khalidriyazgit@gmail.com',
+  github: 'https://github.com/KhalidRmb',
+  x: 'https://twitter.com/_KhalidRmb',
   locale: 'en-US',
   stickyNav: false,
   analytics: {
