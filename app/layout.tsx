@@ -18,7 +18,6 @@ const geist = Geist({
   variable: '--font-geist',
 })
 
-
 const jetbrainsMono = JetBrains_Mono({
   weight: ['400', '500', '600'],
   subsets: ['latin'],
